@@ -1,0 +1,13 @@
+const biodata = [
+{
+name: 'Wesley',position: 'musician',age:28
+},
+{
+name: 'Davis',position: 'engineer',age:2
+},
+];
+function getMusicians(staff) {
+return biodata.filter(data => data.position === 'musician');
+// [{name: 'Wesley', position: 'musician'}]
+}
+console.log(biodata);
