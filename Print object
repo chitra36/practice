@@ -1,0 +1,17 @@
+const team = [
+'Chitra',
+'Chetna',
+'Chii',
+'CK',
+];
+function alphabetizeTeam(team) {
+return [...team].sort();
+// ['Bea', 'Dyan', 'Joe', 'Theo']
+}
+console.log((team[0][0]));
+console.log((team[1][1]));
+console.log((team[2][2]));
+console.log((team[0][3]));
+console.log((team[0][4]));
+console.log((team[0][5]));
+
